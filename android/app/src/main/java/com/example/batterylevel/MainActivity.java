@@ -44,7 +44,7 @@ public class MainActivity extends FlutterActivity {
               }
             }
           );
-        new MethodChannel(flutterEngine.getDartExecutor().getBinaryMessenger(), BATTERY_CHANNEL)
+        new MethodChannel(flutterEngine.getDartExecutor().getBinaryMessenger(),CHANNEL)
         .setMethodCallHandler(
             new MethodCallHandler() {
                 @Override
